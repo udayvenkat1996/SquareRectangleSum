@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50E9331E2C05009500B43018 /* SquareRectangleSumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E9331D2C05009500B43018 /* SquareRectangleSumApp.swift */; };
+		50E933202C05009500B43018 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E9331F2C05009500B43018 /* ContentView.swift */; };
+		50E933222C05009600B43018 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50E933212C05009600B43018 /* Assets.xcassets */; };
+		50E933262C05009600B43018 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50E933252C05009600B43018 /* Preview Assets.xcassets */; };
+		50E933302C05009600B43018 /* SquareRectangleSumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E9332F2C05009600B43018 /* SquareRectangleSumTests.swift */; };
+		50E9333A2C05009700B43018 /* SquareRectangleSumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E933392C05009700B43018 /* SquareRectangleSumUITests.swift */; };
+		50E9333C2C05009700B43018 /* SquareRectangleSumUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E9333B2C05009700B43018 /* SquareRectangleSumUITestsLaunchTests.swift */; };
+		50E933492C05012A00B43018 /* RecursiveShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E933482C05012A00B43018 /* RecursiveShapes.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50E9332C2C05009600B43018 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50E933122C05009500B43018 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50E933192C05009500B43018;
+			remoteInfo = SquareRectangleSum;
+		};
+		50E933362C05009700B43018 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50E933122C05009500B43018 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50E933192C05009500B43018;
+			remoteInfo = SquareRectangleSum;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50E9331A2C05009500B43018 /* SquareRectangleSum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SquareRectangleSum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50E9331D2C05009500B43018 /* SquareRectangleSumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareRectangleSumApp.swift; sourceTree = "<group>"; };
+		50E9331F2C05009500B43018 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		50E933212C05009600B43018 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50E933232C05009600B43018 /* SquareRectangleSum.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SquareRectangleSum.entitlements; sourceTree = "<group>"; };
+		50E933252C05009600B43018 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		50E9332B2C05009600B43018 /* SquareRectangleSumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquareRectangleSumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50E9332F2C05009600B43018 /* SquareRectangleSumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareRectangleSumTests.swift; sourceTree = "<group>"; };
+		50E933352C05009700B43018 /* SquareRectangleSumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquareRectangleSumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50E933392C05009700B43018 /* SquareRectangleSumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareRectangleSumUITests.swift; sourceTree = "<group>"; };
+		50E9333B2C05009700B43018 /* SquareRectangleSumUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareRectangleSumUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		50E933482C05012A00B43018 /* RecursiveShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecursiveShapes.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50E933172C05009500B43018 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50E933282C05009600B43018 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50E933322C05009700B43018 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50E933112C05009500B43018 = {
+			isa = PBXGroup;
+			children = (
+				50E9331C2C05009500B43018 /* SquareRectangleSum */,
+				50E9332E2C05009600B43018 /* SquareRectangleSumTests */,
+				50E933382C05009700B43018 /* SquareRectangleSumUITests */,
+				50E9331B2C05009500B43018 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50E9331B2C05009500B43018 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50E9331A2C05009500B43018 /* SquareRectangleSum.app */,
+				50E9332B2C05009600B43018 /* SquareRectangleSumTests.xctest */,
+				50E933352C05009700B43018 /* SquareRectangleSumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50E9331C2C05009500B43018 /* SquareRectangleSum */ = {
+			isa = PBXGroup;
+			children = (
+				50E933482C05012A00B43018 /* RecursiveShapes.swift */,
+				50E9331D2C05009500B43018 /* SquareRectangleSumApp.swift */,
+				50E9331F2C05009500B43018 /* ContentView.swift */,
+				50E933212C05009600B43018 /* Assets.xcassets */,
+				50E933232C05009600B43018 /* SquareRectangleSum.entitlements */,
+				50E933242C05009600B43018 /* Preview Content */,
+			);
+			path = SquareRectangleSum;
+			sourceTree = "<group>";
+		};
+		50E933242C05009600B43018 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				50E933252C05009600B43018 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		50E9332E2C05009600B43018 /* SquareRectangleSumTests */ = {
+			isa = PBXGroup;
+			children = (
+				50E9332F2C05009600B43018 /* SquareRectangleSumTests.swift */,
+			);
+			path = SquareRectangleSumTests;
+			sourceTree = "<group>";
+		};
+		50E933382C05009700B43018 /* SquareRectangleSumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				50E933392C05009700B43018 /* SquareRectangleSumUITests.swift */,
+				50E9333B2C05009700B43018 /* SquareRectangleSumUITestsLaunchTests.swift */,
+			);
+			path = SquareRectangleSumUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50E933192C05009500B43018 /* SquareRectangleSum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50E9333F2C05009700B43018 /* Build configuration list for PBXNativeTarget "SquareRectangleSum" */;
+			buildPhases = (
+				50E933162C05009500B43018 /* Sources */,
+				50E933172C05009500B43018 /* Frameworks */,
+				50E933182C05009500B43018 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SquareRectangleSum;
+			productName = SquareRectangleSum;
+			productReference = 50E9331A2C05009500B43018 /* SquareRectangleSum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50E9332A2C05009600B43018 /* SquareRectangleSumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50E933422C05009700B43018 /* Build configuration list for PBXNativeTarget "SquareRectangleSumTests" */;
+			buildPhases = (
+				50E933272C05009600B43018 /* Sources */,
+				50E933282C05009600B43018 /* Frameworks */,
+				50E933292C05009600B43018 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50E9332D2C05009600B43018 /* PBXTargetDependency */,
+			);
+			name = SquareRectangleSumTests;
+			productName = SquareRectangleSumTests;
+			productReference = 50E9332B2C05009600B43018 /* SquareRectangleSumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50E933342C05009700B43018 /* SquareRectangleSumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50E933452C05009700B43018 /* Build configuration list for PBXNativeTarget "SquareRectangleSumUITests" */;
+			buildPhases = (
+				50E933312C05009700B43018 /* Sources */,
+				50E933322C05009700B43018 /* Frameworks */,
+				50E933332C05009700B43018 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50E933372C05009700B43018 /* PBXTargetDependency */,
+			);
+			name = SquareRectangleSumUITests;
+			productName = SquareRectangleSumUITests;
+			productReference = 50E933352C05009700B43018 /* SquareRectangleSumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50E933122C05009500B43018 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					50E933192C05009500B43018 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					50E9332A2C05009600B43018 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 50E933192C05009500B43018;
+					};
+					50E933342C05009700B43018 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 50E933192C05009500B43018;
+					};
+				};
+			};
+			buildConfigurationList = 50E933152C05009500B43018 /* Build configuration list for PBXProject "SquareRectangleSum" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50E933112C05009500B43018;
+			productRefGroup = 50E9331B2C05009500B43018 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50E933192C05009500B43018 /* SquareRectangleSum */,
+				50E9332A2C05009600B43018 /* SquareRectangleSumTests */,
+				50E933342C05009700B43018 /* SquareRectangleSumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50E933182C05009500B43018 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E933262C05009600B43018 /* Preview Assets.xcassets in Resources */,
+				50E933222C05009600B43018 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50E933292C05009600B43018 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50E933332C05009700B43018 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50E933162C05009500B43018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E933202C05009500B43018 /* ContentView.swift in Sources */,
+				50E933492C05012A00B43018 /* RecursiveShapes.swift in Sources */,
+				50E9331E2C05009500B43018 /* SquareRectangleSumApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50E933272C05009600B43018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E933302C05009600B43018 /* SquareRectangleSumTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50E933312C05009700B43018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E9333A2C05009700B43018 /* SquareRectangleSumUITests.swift in Sources */,
+				50E9333C2C05009700B43018 /* SquareRectangleSumUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50E9332D2C05009600B43018 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50E933192C05009500B43018 /* SquareRectangleSum */;
+			targetProxy = 50E9332C2C05009600B43018 /* PBXContainerItemProxy */;
+		};
+		50E933372C05009700B43018 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50E933192C05009500B43018 /* SquareRectangleSum */;
+			targetProxy = 50E933362C05009700B43018 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		50E9333D2C05009700B43018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50E9333E2C05009700B43018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		50E933402C05009700B43018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SquareRectangleSum/SquareRectangleSum.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SquareRectangleSum/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SquareRectangleSum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50E933412C05009700B43018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SquareRectangleSum/SquareRectangleSum.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SquareRectangleSum/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SquareRectangleSum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		50E933432C05009700B43018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SquareRectangleSumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SquareRectangleSum.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SquareRectangleSum";
+			};
+			name = Debug;
+		};
+		50E933442C05009700B43018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SquareRectangleSumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SquareRectangleSum.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SquareRectangleSum";
+			};
+			name = Release;
+		};
+		50E933462C05009700B43018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SquareRectangleSumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SquareRectangleSum;
+			};
+			name = Debug;
+		};
+		50E933472C05009700B43018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SquareRectangleSumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SquareRectangleSum;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50E933152C05009500B43018 /* Build configuration list for PBXProject "SquareRectangleSum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50E9333D2C05009700B43018 /* Debug */,
+				50E9333E2C05009700B43018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50E9333F2C05009700B43018 /* Build configuration list for PBXNativeTarget "SquareRectangleSum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50E933402C05009700B43018 /* Debug */,
+				50E933412C05009700B43018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50E933422C05009700B43018 /* Build configuration list for PBXNativeTarget "SquareRectangleSumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50E933432C05009700B43018 /* Debug */,
+				50E933442C05009700B43018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50E933452C05009700B43018 /* Build configuration list for PBXNativeTarget "SquareRectangleSumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50E933462C05009700B43018 /* Debug */,
+				50E933472C05009700B43018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50E933122C05009500B43018 /* Project object */;
+}
